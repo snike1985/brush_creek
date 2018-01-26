@@ -1,0 +1,29 @@
+.site {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: $phone-landscape) {
+  .site {
+
+  }
+}
+@media (min-width: $tablet-portrait) {
+  .site {
+
+  }
+}
+@media (min-width: $tablet-landscape) {
+  .site {
+
+  }
+}
+@media (min-width: $desktop) {
+  .site {
+
+  }
+}
+

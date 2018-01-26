@@ -1,0 +1,39 @@
+.btn,
+a.btn,
+button.btn {
+  display: inline-block;
+  padding: 14px 30px 13px;
+  border-radius: 3px;
+  border: 2px solid #000;
+  background-color: rgb(0, 0, 0);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  transition: opacity .3s ease-in-out;
+  @include proximanova-semibold();
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &.active {
+    color: #000;
+    background-color: transparent;
+
+    .btn__icon {
+
+      svg { fill: #fff }
+    }
+  }
+
+  &:active {
+    opacity: .5;
+  }
+
+  &_transparent {
+    background-color: transparent;
+    color: #000;
+    border-color: transparent;
+  }
+}
